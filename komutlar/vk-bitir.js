@@ -7,7 +7,7 @@ if(!message.member.roles.cache.find(x => x.name == "Vampir Köylü Yetkilisi")) 
 var role = message.guild.roles.cache.find(x2 => x2.name === "Vampir Köylü Yetkilisi");
 let mesaj = message.author || message.mentions.users.first()
 message.guild.member(mesaj).roles.remove(role);
-let dmirbotuser = message.author
+let cubbelibeyuser = message.author
 
 const roller = ["Köylü", "Büyücü"]
 
